@@ -1,0 +1,23 @@
+.category {
+  vertical-align: top;
+  margin-right: 66px !important;
+  position: relative;
+}
+.category::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background: #434449;
+  position: absolute;
+  right: -39px;
+  top: 9px;
+  transform: rotate(45deg);
+}
+
+.category:last-child::after {
+  display: none;
+}
+/* use this with active class */
+.category:first-child {
+  color: white;
+}

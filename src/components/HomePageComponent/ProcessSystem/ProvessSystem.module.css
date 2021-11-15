@@ -1,0 +1,33 @@
+.section {
+  padding: 80px 0;
+  background-color: #181b23;
+}
+.my_card {
+  border: 0.2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 26px 30px;
+  position: relative;
+}
+.title {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.icon_wrapper {
+  background-color: #181b23;
+  font-size: 36px;
+  color: #e51515;
+  position: absolute;
+  right: -20px;
+  line-height: 66px;
+  width: 40px;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 767.98px) {
+  .section {
+    padding: 80px 0px 30px;
+  }
+}

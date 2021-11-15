@@ -1,0 +1,52 @@
+.subscribe_input {
+  background-color: black;
+  border: none;
+  border-radius: 30px;
+  color: #5a6069;
+  padding: 12px 20px;
+}
+
+.icon {
+  background: red;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 46px;
+  text-align: center;
+  border-radius: 50%;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  color: white;
+  font-size: 25px;
+}
+.subscribe_input:focus {
+  background-color: black;
+}
+
+.subcribe_container {
+  position: relative;
+  cursor: pointer;
+}
+
+.title {
+  font-family: Oswald, sans-serif;
+  font-weight: 300;
+}
+.section {
+  padding: 45px 0 70px;
+}
+
+.my_border {
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.1);
+  margin-top: 35px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 767.98px) {
+  .my_border {
+    margin-bottom: 35px;
+  }
+}

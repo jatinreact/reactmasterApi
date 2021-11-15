@@ -1,0 +1,218 @@
+.ACC {
+    font-family: "Oswald";
+    margin-left: 250px;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-around;
+    font-family: Oswald;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  
+  .forgotpass:hover {
+    text-decoration-color: green;
+  }
+  
+  .changeFont {
+    font-family: sans-serif;
+  }
+  
+  .toRegister {
+    padding: 20px;
+    border: 3px solid gray;
+    height: 220px;
+  }
+  
+  .loginEntry {
+    padding: 20px;
+    border: 3px solid gray;
+  }
+  
+  .input-box-length {
+    width: 500px;
+  }
+  
+  @media (min-width: 1600px) and (max-width: 1800px) {
+    .ACC {
+      margin-left: 180px;
+    }
+  
+    .main {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+    .toRegister {
+      padding: 20px;
+      border: 3px solid gray;
+      height: 290px;
+      width: 300px;
+    }
+  
+    .loginEntry {
+      padding: 20px;
+      border: 3px solid gray;
+      height: auto;
+      width: 600px;
+    }
+  }
+  
+  @media (min-width: 1400px) and (max-width: 1600px) {
+    .ACC {
+      margin-left: 150px;
+    }
+  
+    .main {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+    .toRegister {
+      padding: 20px;
+      border: 3px solid gray;
+      height: 300px;
+      width: 300px;
+    }
+  
+    .loginEntry {
+      padding: 20px;
+      border: 3px solid gray;
+      height: auto;
+      width: 550px;
+    }
+  }
+  
+  @media (min-width: 1250px) and (max-width: 1400px) {
+    .ACC {
+      margin-left: 90px;
+    }
+    .toRegister {
+      padding: 20px;
+      border: 3px solid gray;
+      height: 300px;
+      width: 300px;
+    }
+  
+    .loginEntry {
+      padding: 20px;
+      border: 3px solid gray;
+      height: auto;
+      width: 500px;
+    }
+    .main {
+      margin-left: 80px;
+      margin-right: 80px;
+      justify-content: space-between;
+    }
+  }
+  
+  @media (min-width: 1100px) and (max-width: 1250px) {
+    .ACC {
+      margin-left: 70px;
+    }
+    .toRegister {
+      font-size: 14px;
+      padding: 20px;
+      border: 3px solid gray;
+      height: 300px;
+      width: 270px;
+    }
+  
+    .loginEntry {
+      font-size: 14px;
+      padding: 20px;
+      border: 3px solid gray;
+      height: auto;
+      width: 400px;
+    }
+    .main {
+      margin-left: 50px;
+      margin-right: 50px;
+      justify-content: space-between;
+    }
+  }
+  
+  @media (min-width: 900px) and (max-width: 1100px) {
+    .ACC {
+      margin-left: 30px;
+    }
+    .toRegister {
+      font-size: 12px;
+      padding: 20px;
+      border: 3px solid gray;
+      height: 300px;
+      width: 270px;
+    }
+  
+    .loginEntry {
+      font-size: 12px;
+      padding: 20px;
+      border: 3px solid gray;
+      height: auto;
+      width: 400px;
+    }
+    .main {
+      margin-left: 0px;
+      margin-right: 0px;
+      justify-content: space-between;
+    }
+  }
+  
+  @media (min-width: 600px) and (max-width: 900px) {
+    .ACC {
+      margin-left: 10px;
+    }
+    .toRegister {
+      font-size: 12px;
+      padding: 10px;
+      border: 0px;
+      height: 300px;
+      width: 270px;
+    }
+  
+    .loginEntry {
+      font-size: 12px;
+      padding: 10px;
+      border: 0px;
+      height: auto;
+      width: 400px;
+    }
+    .main {
+      margin-left: 0px;
+      margin-right: 0px;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .ACC {
+      margin-left: 5px;
+    }
+    .toRegister {
+      font-size: 12px;
+      padding: 10px;
+      border: 0px;
+      height: auto;
+      width: auto;
+    }
+  
+    .loginEntry {
+      font-size: 12px;
+      padding: 10px;
+      border: 0px;
+      height: auto;
+      width: auto;
+    }
+    .main {
+      margin-left: 0px;
+      margin-right: 0px;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .fulll {
+      width: auto;
+      height: auto;
+    }
+  }
+  

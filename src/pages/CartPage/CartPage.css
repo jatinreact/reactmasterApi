@@ -1,0 +1,23 @@
+.actionBtn{
+    /* outline: none !important; */
+    display: flex;
+    align-items: center;
+    background: #e8e8e8;
+    justify-content: center;
+    font-weight: bold;
+  }
+  .counter{
+    min-width: 35px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 0 3px;
+  }
+  .bgHover{
+    transition: all 0.2s linear;
+}
+.bgHover:hover{
+      background-color: red !important;
+      color:white !important;
+      transform: scale(1.1);
+  }

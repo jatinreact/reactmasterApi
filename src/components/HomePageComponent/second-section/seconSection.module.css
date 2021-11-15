@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.content {
+  padding: 50px;
+}
+.text__container {
+  position: relative;
+  z-index: 1;
+}
+.title {
+  margin-left: 40px;
+  font-size: 1.5rem;
+  font-weight: 100;
+  font-family: Oswald, sans-serif;
+}
+
+.title span:last-child {
+  font-weight: 600;
+}
+.bold__text {
+  font-weight: bold;
+  margin-left: 20px;
+}
+.text__container::before {
+  content: "HISTORY";
+  font-size: 50px;
+  transform: scaleY(2.2);
+  line-height: 40px;
+  letter-spacing: 10px;
+  font-weight: bold;
+  position: absolute;
+  color: #1b1c22;
+  top: 0;
+  left: 0;
+  z-index: -999;
+}
+
+/* .section {
+  background-color: #14151b;
+} */
+.product_image_container {
+  height: 150px;
+  position: relative;
+  text-transform: uppercase;
+}
+.product_image_container img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+  opacity: 0.5;
+}
+.product_image_container div {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.product_image_container div h5 {
+  color: #f7d90b;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+@media (max-width: 767.98px) {
+  .product_image_container {
+    height: 300px !important;
+    position: relative;
+    text-transform: uppercase;
+  }
+}

@@ -1,0 +1,16 @@
+.publishpara {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .submitcomment {
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    width: 170px;
+    height: 35px;
+    border-radius: 25px;
+  }
+  .submitcomment:hover {
+    background-color: red;
+  }

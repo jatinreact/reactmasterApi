@@ -1,0 +1,87 @@
+.featured__product__card {
+  background-color: #14151b !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+  border-radius: 8px !important;
+  /* box-shadow: 3px 3px 12px firebrick !important; */
+  transition: all 0.2s linear;
+}
+.featured__product__card:hover {
+  box-shadow: 3px 3px 12px firebrick !important;
+  transform: scale(1.02);
+}
+.card__image_wrapper {
+  height: 250px !important;
+}
+.card__image_wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0 !important;
+}
+.title {
+  font-family: Oswald, sans-serif;
+  font-size: 15px;
+}
+.description {
+  font-family: Rubik, sans-serif;
+  line-height: 23px;
+  font-size: 13px;
+}
+.rating {
+  color: goldenrod;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 25px;
+}
+
+.price {
+  color: #e51515;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.1);
+  padding-top: 15px;
+  font-size: 14px;
+}
+.my_btnn{
+  border-radius: 2px;
+  min-width: 50px !important;
+  margin: 0;
+  border: #e51515 1px solid;
+  font-size: 13px;
+  text-align: center;
+  line-height: 33px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: white;
+  margin-right: 12px;
+  font-family: Rubik, sans-serif;
+  color: #5a6069;
+}
+.btn_group {
+  margin-bottom: 20px;
+}
+.btn_selected {
+  color: white;
+  background-color: red;
+}
+
+.my_btn {
+  color: white !important;
+  background-color: red !important;
+  width: 100%;
+  border-radius: 20px !important;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition: all 0.2s linear;
+}
+.my_btn:hover {
+  transform: scale(1.07);
+}
+
+.ShadowBOX {
+  box-shadow: 10px 10px 5px yellow !important;
+}
+
+@media (max-width: 767.98px) {
+  .card__image_wrapper {
+    height: 375px !important;
+  }
+}

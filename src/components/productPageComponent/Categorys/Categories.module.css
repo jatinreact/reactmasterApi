@@ -1,0 +1,38 @@
+.category_container {
+  border: 2px solid #efefef;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.category_titile {
+  font-family: Oswald, sans-serif;
+  display: block;
+  margin-bottom: 17px;
+  font-size: 22px;
+  color: #181b23;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.list_item,
+.check_item {
+  padding-left: 0;
+  border: none;
+  padding: 5px 0;
+  font-size: 14px;
+  color: #6c6f7a;
+  text-transform: capitalize;
+  font-family: Rubik, sans-serif;
+  padding: 12px 0;
+  cursor: pointer;
+}
+.list_item {
+  border-bottom: 1px solid #efefef;
+  line-height: 30px;
+}
+.my_checkbox {
+  margin-right: 8px;
+}
+.my_checkbox:checked {
+  background-color: red !important;
+  border-color: red;
+}

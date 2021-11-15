@@ -1,0 +1,123 @@
+.menu__bar {
+  background-color: #22232b;
+  border-bottom: 1px solid #e51515;
+}
+.my_menu {
+  font-family: Oswald, sans-serif;
+  font-weight: 300 !important;
+}
+
+.logo {
+  width: 100%;
+}
+
+.icon {
+  color: white;
+  font-size: 20px !important;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.icon svg {
+  margin-left: 10px !important;
+  align-items: center !important;
+}
+.badged {
+  font-size: 11px;
+  border-radius: 50%;
+  padding: 2px 3px !important;
+}
+
+.search_box {
+  position: absolute;
+  right: 26px;
+  background-color: black;
+  border: none;
+  outline: none;
+  /* font-size: 12px; */
+  color: white !important;
+  /* width: 250px; */
+  font-weight: 400;
+  /* background: #22232b; */
+  padding-left: 12px;
+  border-radius: 3px;
+}
+.serach_wrapepr {
+  position: relative;
+}
+/* order summery */
+.price_wrapper {
+  padding: 30px 0;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+}
+.price_type {
+  color: #545454;
+  font-size: 14.3px;
+  margin-bottom: 10px;
+}
+.price {
+  font-weight: 500;
+  color: #323232;
+}
+
+.total_area {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.grand_total {
+  font-size: 1.7142857143em;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1em;
+  color: #323232;
+}
+.acc_grand_total {
+  font-size: 1.1em;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 1em;
+  color: #323232;
+}
+.product_img_container {
+  height: 70px !important;
+  position: relative;
+}
+.product_img_container img {
+  height: 100% !important;
+  border-radius: 4px;
+}
+.product_qountaty {
+  /* position: absolute; */
+  font-size: 0.8571428571em;
+  font-weight: 500;
+  line-height: 1.75em;
+  white-space: nowrap;
+  text-align: start;
+  padding-left:15px !important;
+  /* border-radius: 1.75em;
+  background-color: rgba(114, 114, 114, 0.9); */
+  /* color: darkgray !important; */
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-width: 1.75em;
+  height: 1.75em;
+  /* padding: 0 0.5833333333em; */
+  /* position: absolute; */
+  right: -0.75em;
+  top: -0.75em;
+  z-index: 3;
+}
+
+
+@media (max-width: 767.98px) {
+  .icon svg {
+    margin-left: 20px !important;
+  }
+  .search_box {
+    left: 2px;
+    bottom: -42px;
+  }
+}

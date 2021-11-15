@@ -1,0 +1,136 @@
+.slider {
+  height: 75vh !important;
+}
+.slider_bg_img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+/* .slider img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+} */
+.slider__caption {
+  left: 0 !important;
+  right: 0 !important;
+}
+.slider_logo {
+  width: 119px !important;
+  height: 79px !important;
+  margin: 0px auto;
+}
+.slider__caption h2 {
+  letter-spacing: 8px;
+}
+.small {
+  letter-spacing: 13px;
+  font-size: 11px !important;
+}
+.btn {
+  background-color: red;
+  padding: 5px 4px 5px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  margin-bottom: 0px !important;
+  display: inline-flex;
+}
+.btn svg {
+  background: white;
+  color: black;
+  /* padding: 7px; */
+  width: 25px;
+  height: 24px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.exhaust {
+  display: flex;
+  align-items: center;
+}
+.exhaust_container {
+  background: rgba(0, 0, 0, 0.8);
+  /* width: 70%; */
+  margin: auto;
+  padding: 11px 0;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: inline-block;
+}
+.select {
+  display: flex;
+}
+.arrow {
+  height: 38px;
+  width: 31px;
+  border-radius: 7px;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+.select select {
+  width: 102px !important;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white !important;
+  cursor: pointer;
+}
+
+/* large view */
+.large_view {
+  z-index: 1;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.video_container {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  height: 500px;
+}
+
+.content_container {
+  text-align: center;
+}
+
+
+@media (max-width: 767.98px) {
+  .slider {
+    height: 80vh !important;
+  }
+  .slider__caption h2 {
+    letter-spacing: 6px;
+  }
+  .exhaust {
+    flex-direction: column;
+  }
+}
+@media (max-width: 575.98px) {
+  .slider__caption h2 {
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+  .small {
+    letter-spacing: 8px;
+  }
+}
+
+@media (max-width: 475px) {
+  .slider__caption h2 {
+    font-size: 17px;
+    letter-spacing: 5px;
+  }
+  .small {
+    letter-spacing: 7px;
+  }
+}

@@ -1,0 +1,41 @@
+.abouthead {
+    padding: 40px 5px;
+  }
+  .aboutcontainer {
+    padding: 0 200px;
+    padding-bottom: 50px;
+  }
+  .aboutimage {
+    max-width: 300px;
+    height: auto;
+  }
+  .aboutimag {
+    max-width: 200px;
+    height: auto;
+  }
+  .cowcont {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  .headingcontabout {
+    text-align: center;
+  }
+  .headingcontabout > h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+  }
+  .bodycontabout {
+    text-align: center;
+  }
+  .h5walatag {
+    padding-top: 4px;
+  }
+  @media screen and (max-width: 1030px) {
+    .aboutcontainer {
+      padding: 0 20px;
+    }
+  }

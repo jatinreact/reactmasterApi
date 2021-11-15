@@ -1,0 +1,9 @@
+.rating {
+  color: goldenrod;
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 14px;
+}
+.retting_count {
+  /* color: rgba(255, 255, 255, 0.3) !important; */
+  color: #5a6069 !important;
+}
